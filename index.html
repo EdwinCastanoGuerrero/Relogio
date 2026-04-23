@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-100">
+
+    <div class="flex items-center justify-center h-screen">
+
+        <div class="p-6 bg-slate-200 text-slate-500 border-1 border-slate-400 rounded-lg shadow-md w-150">
+
+            <p class="text-2xl text-slate-500">Cronómetro</p>
+
+            <hr class="border-slate-400 my-4">
+
+            <div class="flex justify-center gap-3 p-3 text-center font-mono text-green-600 bg-neutral-900 rounded-xl" id="display">
+                <span id="display_main" class="text-6xl">00:00:00</span>
+                <span id="display_milliseconds" class="text-4xl">000</span>
+            </div>
+
+            <hr class="border-slate-400 my-4">
+
+            <div class="flex justify-center gap-4">
+                <button id="reset" class="bg-red-500 hover:bg-red-700 text-white py-2 px-4 rounded-lg w-30">Reset</button>
+                <button id="pause" class="bg-slate-500 hover:bg-slate-700 text-white py-2 px-4 rounded-lg w-30">Pausar</button>
+                <button id="start" class="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-lg w-30">Iniciar</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
