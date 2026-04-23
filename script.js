@@ -1,4 +1,3 @@
-
 const ButtonStart = document.getElementById('start');
 const ButtonPause = document.getElementById('pause');
 const ButtonReset = document.getElementById('reset');
